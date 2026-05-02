@@ -1,8 +1,8 @@
-# WasteLess Kitchen — AI-Powered Smart Kitchen Co-Pilot
+# bonAppetite — AI-Powered Smart Kitchen Co-Pilot
 
 **Reduce waste. Save money. Cook smarter.**
 
-WasteLess Kitchen is a premium, AI-powered iOS assistant designed to turn your phone camera into a smart kitchen co-pilot. Built with a focus on sustainability and efficiency, it helps families eliminate food waste by intelligently tracking inventory and suggesting meals based on what's already in the fridge.
+bonAppetite is a premium, AI-powered iOS assistant designed to turn your phone camera into a smart kitchen co-pilot. Built with a focus on sustainability and efficiency, it helps families eliminate food waste by intelligently tracking inventory and suggesting meals based on what's already in the fridge.
 
 ## The Problem
 Global food waste is a trillion-dollar problem, with a significant portion occurring in home kitchens due to forgotten ingredients and poor meal planning. Families lose thousands of dollars every year to expired food simply because they can't "see" what they have.
@@ -15,7 +15,7 @@ Global food waste is a trillion-dollar problem, with a significant portion occur
 - **Analytics Dashboard**: Visual charts showing food saved, money saved, and most-wasted categories to drive behavioral change.
 
 ## Why iOS?
-WasteLess Kitchen leverages the cutting edge of the Apple ecosystem to provide a high-performance, privacy-first experience:
+bonAppetite leverages the cutting edge of the Apple ecosystem to provide a high-performance, privacy-first experience:
 - **Vision & Core ML**: On-device ingredient recognition for blazing-fast scanning without data leaving the phone.
 - **SwiftData**: High-performance, local-first persistence for seamless inventory management.
 - **App Intents & Siri**: "Hey Siri, what's expiring soon?" — deep system integration for a hands-free utility.
