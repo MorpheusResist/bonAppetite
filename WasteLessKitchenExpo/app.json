@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "WasteLess Kitchen",
+    "slug": "wasteless-kitchen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "wastelesskitchen",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.portfolio.wastelesskitchen.expo"
+    },
+    "android": {
+      "package": "com.portfolio.wastelesskitchen.expo",
+      "adaptiveIcon": {
+        "backgroundColor": "#1f6b45"
+      }
+    },
+    "plugins": [
+      "expo-image-picker",
+      "expo-notifications",
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "portfolioNote": "Windows-runnable Expo version of the native SwiftUI WasteLess Kitchen concept."
+    }
+  }
+}

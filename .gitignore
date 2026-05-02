@@ -1,0 +1,26 @@
+# Xcode
+build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+# macOS
+.DS_Store
+
+# React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Local env files
+.env*.local
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# User-specific
+xcuserdata/

@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00000000000000000000001 /* WasteLessKitchenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* WasteLessKitchenApp.swift */; };
+		C00000000000000000000002 /* KitchenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* KitchenStore.swift */; };
+		C00000000000000000000003 /* KitchenModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* KitchenModels.swift */; };
+		C00000000000000000000004 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* SampleData.swift */; };
+		C00000000000000000000005 /* KitchenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* KitchenServices.swift */; };
+		C00000000000000000000006 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* AppTheme.swift */; };
+		C00000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* RootView.swift */; };
+		C00000000000000000000008 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* OnboardingViews.swift */; };
+		C00000000000000000000009 /* HomeScanInventoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* HomeScanInventoryViews.swift */; };
+		C00000000000000000000010 /* RecipeCookingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* RecipeCookingViews.swift */; };
+		C00000000000000000000011 /* ShoppingAnalyticsSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* ShoppingAnalyticsSettingsViews.swift */; };
+		C00000000000000000000012 /* WasteLessAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* WasteLessAppIntents.swift */; };
+		C00000000000000000000013 /* WasteLessKitchenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* WasteLessKitchenWidget.swift */; };
+		C00000000000000000000014 /* WasteLessKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* WasteLessKitchenTests.swift */; };
+		C00000000000000000000015 /* WasteLessKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* WasteLessKitchenUITests.swift */; };
+		C00000000000000000000016 /* WasteLessKitchenWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B00000000000000000000020 /* WasteLessKitchenWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		G00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000002;
+			remoteInfo = WasteLessKitchenWidgets;
+		};
+		G00000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000001;
+			remoteInfo = WasteLessKitchen;
+		};
+		G00000000000000000000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000001;
+			remoteInfo = WasteLessKitchen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E00000000000000000000004 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C00000000000000000000016 /* WasteLessKitchenWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* WasteLessKitchenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteLessKitchenApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* KitchenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* KitchenModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenModels.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* KitchenServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenServices.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* HomeScanInventoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScanInventoryViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* RecipeCookingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* ShoppingAnalyticsSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAnalyticsSettingsViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* WasteLessAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteLessAppIntents.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* WasteLessKitchenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteLessKitchenWidget.swift; sourceTree = "<group>"; };
+		B00000000000000000000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000015 /* WasteLessKitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteLessKitchenTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000016 /* WasteLessKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteLessKitchenUITests.swift; sourceTree = "<group>"; };
+		B00000000000000000000017 /* WasteLessKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasteLessKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000018 /* WasteLessKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasteLessKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000019 /* WasteLessKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasteLessKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000020 /* WasteLessKitchenWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WasteLessKitchenWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000007 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000010 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000013 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000004 /* WasteLessKitchen */,
+				A00000000000000000000013 /* WasteLessKitchenWidgets */,
+				A00000000000000000000014 /* WasteLessKitchenTests */,
+				A00000000000000000000015 /* WasteLessKitchenUITests */,
+				A00000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000017 /* WasteLessKitchen.app */,
+				B00000000000000000000020 /* WasteLessKitchenWidgets.appex */,
+				B00000000000000000000018 /* WasteLessKitchenTests.xctest */,
+				B00000000000000000000019 /* WasteLessKitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* WasteLessKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000005 /* App */,
+				A00000000000000000000006 /* Models */,
+				A00000000000000000000007 /* Data */,
+				A00000000000000000000008 /* Services */,
+				A00000000000000000000009 /* Theme */,
+				A00000000000000000000010 /* Views */,
+				A00000000000000000000012 /* Intents */,
+			);
+			path = WasteLessKitchen;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000005 /* App */ = {isa = PBXGroup; children = (B00000000000000000000001 /* WasteLessKitchenApp.swift */, B00000000000000000000002 /* KitchenStore.swift */); path = App; sourceTree = "<group>"; };
+		A00000000000000000000006 /* Models */ = {isa = PBXGroup; children = (B00000000000000000000003 /* KitchenModels.swift */); path = Models; sourceTree = "<group>"; };
+		A00000000000000000000007 /* Data */ = {isa = PBXGroup; children = (B00000000000000000000004 /* SampleData.swift */); path = Data; sourceTree = "<group>"; };
+		A00000000000000000000008 /* Services */ = {isa = PBXGroup; children = (B00000000000000000000005 /* KitchenServices.swift */); path = Services; sourceTree = "<group>"; };
+		A00000000000000000000009 /* Theme */ = {isa = PBXGroup; children = (B00000000000000000000006 /* AppTheme.swift */); path = Theme; sourceTree = "<group>"; };
+		A00000000000000000000010 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* RootView.swift */,
+				B00000000000000000000008 /* OnboardingViews.swift */,
+				B00000000000000000000009 /* HomeScanInventoryViews.swift */,
+				B00000000000000000000010 /* RecipeCookingViews.swift */,
+				B00000000000000000000011 /* ShoppingAnalyticsSettingsViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000012 /* Intents */ = {isa = PBXGroup; children = (B00000000000000000000012 /* WasteLessAppIntents.swift */); path = Intents; sourceTree = "<group>"; };
+		A00000000000000000000013 /* WasteLessKitchenWidgets */ = {isa = PBXGroup; children = (B00000000000000000000013 /* WasteLessKitchenWidget.swift */, B00000000000000000000014 /* Info.plist */); path = WasteLessKitchenWidgets; sourceTree = "<group>"; };
+		A00000000000000000000014 /* WasteLessKitchenTests */ = {isa = PBXGroup; children = (B00000000000000000000015 /* WasteLessKitchenTests.swift */); path = WasteLessKitchenTests; sourceTree = "<group>"; };
+		A00000000000000000000015 /* WasteLessKitchenUITests */ = {isa = PBXGroup; children = (B00000000000000000000016 /* WasteLessKitchenUITests.swift */); path = WasteLessKitchenUITests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00000000000000000000001 /* WasteLessKitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000020 /* Build configuration list for PBXNativeTarget "WasteLessKitchen" */;
+			buildPhases = (
+				E00000000000000000000001 /* Sources */,
+				E00000000000000000000002 /* Frameworks */,
+				E00000000000000000000003 /* Resources */,
+				E00000000000000000000004 /* Embed App Extensions */,
+			);
+			buildRules = ();
+			dependencies = (
+				G00000000000000000000004 /* PBXTargetDependency */,
+			);
+			name = WasteLessKitchen;
+			productName = WasteLessKitchen;
+			productReference = B00000000000000000000017 /* WasteLessKitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00000000000000000000002 /* WasteLessKitchenWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000021 /* Build configuration list for PBXNativeTarget "WasteLessKitchenWidgets" */;
+			buildPhases = (
+				E00000000000000000000006 /* Sources */,
+				E00000000000000000000007 /* Frameworks */,
+				E00000000000000000000008 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = WasteLessKitchenWidgets;
+			productName = WasteLessKitchenWidgets;
+			productReference = B00000000000000000000020 /* WasteLessKitchenWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D00000000000000000000003 /* WasteLessKitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000022 /* Build configuration list for PBXNativeTarget "WasteLessKitchenTests" */;
+			buildPhases = (
+				E00000000000000000000009 /* Sources */,
+				E00000000000000000000010 /* Frameworks */,
+				E00000000000000000000011 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				G00000000000000000000005 /* PBXTargetDependency */,
+			);
+			name = WasteLessKitchenTests;
+			productName = WasteLessKitchenTests;
+			productReference = B00000000000000000000018 /* WasteLessKitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D00000000000000000000004 /* WasteLessKitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000023 /* Build configuration list for PBXNativeTarget "WasteLessKitchenUITests" */;
+			buildPhases = (
+				E00000000000000000000012 /* Sources */,
+				E00000000000000000000013 /* Frameworks */,
+				E00000000000000000000014 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				G00000000000000000000006 /* PBXTargetDependency */,
+			);
+			name = WasteLessKitchenUITests;
+			productName = WasteLessKitchenUITests;
+			productReference = B00000000000000000000019 /* WasteLessKitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D00000000000000000000001 = {CreatedOnToolsVersion = 16.0; };
+					D00000000000000000000002 = {CreatedOnToolsVersion = 16.0; };
+					D00000000000000000000003 = {CreatedOnToolsVersion = 16.0; TestTargetID = D00000000000000000000001; };
+					D00000000000000000000004 = {CreatedOnToolsVersion = 16.0; TestTargetID = D00000000000000000000001; };
+				};
+			};
+			buildConfigurationList = F00000000000000000000019 /* Build configuration list for PBXProject "WasteLessKitchen" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A00000000000000000000002;
+			productRefGroup = A00000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00000000000000000000001 /* WasteLessKitchen */,
+				D00000000000000000000002 /* WasteLessKitchenWidgets */,
+				D00000000000000000000003 /* WasteLessKitchenTests */,
+				D00000000000000000000004 /* WasteLessKitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000008 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000011 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000014 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00000000000000000000001 /* WasteLessKitchenApp.swift in Sources */,
+				C00000000000000000000002 /* KitchenStore.swift in Sources */,
+				C00000000000000000000003 /* KitchenModels.swift in Sources */,
+				C00000000000000000000004 /* SampleData.swift in Sources */,
+				C00000000000000000000005 /* KitchenServices.swift in Sources */,
+				C00000000000000000000006 /* AppTheme.swift in Sources */,
+				C00000000000000000000007 /* RootView.swift in Sources */,
+				C00000000000000000000008 /* OnboardingViews.swift in Sources */,
+				C00000000000000000000009 /* HomeScanInventoryViews.swift in Sources */,
+				C00000000000000000000010 /* RecipeCookingViews.swift in Sources */,
+				C00000000000000000000011 /* ShoppingAnalyticsSettingsViews.swift in Sources */,
+				C00000000000000000000012 /* WasteLessAppIntents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00000000000000000000006 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C00000000000000000000013 /* WasteLessKitchenWidget.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000009 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C00000000000000000000014 /* WasteLessKitchenTests.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		E00000000000000000000012 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (C00000000000000000000015 /* WasteLessKitchenUITests.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		G00000000000000000000004 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = D00000000000000000000002 /* WasteLessKitchenWidgets */; targetProxy = G00000000000000000000001 /* PBXContainerItemProxy */; };
+		G00000000000000000000005 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = D00000000000000000000001 /* WasteLessKitchen */; targetProxy = G00000000000000000000002 /* PBXContainerItemProxy */; };
+		G00000000000000000000006 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = D00000000000000000000001 /* WasteLessKitchen */; targetProxy = G00000000000000000000003 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WasteLess Kitchen";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "WasteLess Kitchen uses the camera to scan your fridge, pantry, receipts, barcodes, and food labels.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WasteLess Kitchen uses the microphone for hands-free cooking commands when enabled.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WasteLess Kitchen reads selected food photos to detect ingredients.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "WasteLess Kitchen can listen for next, previous, and repeat cooking commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WasteLess Kitchen";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "WasteLess Kitchen uses the camera to scan your fridge, pantry, receipts, barcodes, and food labels.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WasteLess Kitchen uses the microphone for hands-free cooking commands when enabled.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WasteLess Kitchen reads selected food photos to detect ingredients.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "WasteLess Kitchen can listen for next, previous, and repeat cooking commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WasteLessKitchenWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchen.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WasteLessKitchenWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchen.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F00000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WasteLessKitchen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WasteLessKitchen";
+			};
+			name = Debug;
+		};
+		F00000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WasteLessKitchen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WasteLessKitchen";
+			};
+			name = Release;
+		};
+		F00000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = WasteLessKitchen;
+			};
+			name = Debug;
+		};
+		F00000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.WasteLessKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = WasteLessKitchen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000019 /* Build configuration list for PBXProject "WasteLessKitchen" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000001 /* Debug */, F00000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000020 /* Build configuration list for PBXNativeTarget "WasteLessKitchen" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000003 /* Debug */, F00000000000000000000004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000021 /* Build configuration list for PBXNativeTarget "WasteLessKitchenWidgets" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000005 /* Debug */, F00000000000000000000006 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000022 /* Build configuration list for PBXNativeTarget "WasteLessKitchenTests" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000007 /* Debug */, F00000000000000000000008 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000023 /* Build configuration list for PBXNativeTarget "WasteLessKitchenUITests" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000009 /* Debug */, F00000000000000000000010 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
