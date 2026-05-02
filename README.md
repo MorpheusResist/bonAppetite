@@ -32,4 +32,4 @@ Built with a **Liquid Glass** aesthetic — featuring depth, soft materials, and
 
 ---
 
-*Built as a showcase for the iOS Student Developer Program 2026-27 — demonstrating the power of AI and on-device processing to solve global sustainability challenges.*
+
